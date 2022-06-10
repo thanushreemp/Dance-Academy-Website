@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0px;  
+  padding: 0px;
+
+}  
+
+#navbar{
+    background-color: rgb(1 1 3);
+    padding: 20px 10px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 15px;
+    font-size: 28px;
+    margin-right: 282px;
+}
+
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar li a:hover{
+    color: rgb(244, 244, 105);
+}
+
+#introsection{
+    height: 450px;
+    background-color: #020003;
+    background: center / cover no-repeat url('/static/bg.jpg');
+    color: white;
+   
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    padding-bottom: 42px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#introsection div.small{
+    font-size: 28px;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#missionsection{
+    height: 300px;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+} 
+
+#missionsection h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card{
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    width: 29%;
+    margin: 20px 20px;
+    height: 205px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 12px;
+    height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 122px;
+    padding: 19px 12px;
+    filter: invert(1);
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    font-size: 21px;
+    margin-right: 13px;
+    padding: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: white;
+}
+
+#sponsorssection{
+    height: 300px;
+    background-color: black;
+}
+
+#sponsorssection h2{
+    color: white;
+    text-align: center; 
+    padding-top: 34px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#sponsors{
+    height: 100px;
+    margin: auto;
+    max-width: 1000px;
+    margin-top: -12px;
+}
+
+.spImage{
+    height: 201px;
+    padding: 26px 30px;
+    margin-top: 14px;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
